@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx_elasticsearch = {path = ".", editable = true}
+elasticsearch = "==6.3.1"
+pyquery = "==1.4.0"
+
+[requires]
+python_version = "3"

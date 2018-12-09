@@ -1,0 +1,7 @@
+sphinx_elasticsearch changes
+============================
+
+1.0.0 (unreleased)
+------------------
+
+- Initial release
