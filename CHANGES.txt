@@ -4,7 +4,7 @@ sphinx_elasticsearch changes
 1.1.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Flush after indexing and before deleting, to prevent conflict errors
 
 
 1.0.0 (2018-12-09)

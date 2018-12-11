@@ -49,6 +49,7 @@ def index(es_url, index, type, project_name, commit, build_dir):
             '_source': doc,
         })
     elasticsearch.helpers.bulk(es, to_index)
+    es.indices.flush(wait_if_ongoing=True)
 
     if commit:
         es.delete_by_query(body={'query': {'bool': {
